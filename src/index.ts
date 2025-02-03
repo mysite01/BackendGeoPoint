@@ -25,7 +25,7 @@ import cors from 'cors';
 
 
 const corsOptions = {
-  origin: 'https://geopickpoint-new.vercel.app', // Ersetze dies mit deiner tatsächlichen Frontend-Domain
+  origin: 'https://geopick-front-new.vercel.app', // Ersetze dies mit deiner tatsächlichen Frontend-Domain
   methods: 'GET,POST,PUT,DELETE',
   allowedHeaders: 'Content-Type, Authorization', // Erlaubte Header
   credentials: true, // Falls du Cookies oder Authentifizierung benötigst
